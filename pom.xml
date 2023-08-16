@@ -554,7 +554,7 @@
         <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/octocat/hello-world</url>
+      <url>https://maven.pkg.github.com/hari35653565/Working-Petclinic-Sonarqube-MyExperiment</url>
     </repository>
              
     </repositories>
@@ -562,7 +562,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/octocat/hello-world</url>
+      <url>https://maven.pkg.github.com/hari35653565/Working-Petclinic-Sonarqube-MyExperiment</url>
     </repository>
   </distributionManagement>     
 
