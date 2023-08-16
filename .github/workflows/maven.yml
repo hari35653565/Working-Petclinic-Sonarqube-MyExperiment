@@ -36,4 +36,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
     - name: Deploy
-      run: sudo find /home/runner/work/Working-Petclinic-Sonarqube-MyExperiment/Working-Petclinic-Sonarqube-MyExperiment/target/ iname *.war -exec cp {} /opt/apache-tomcat-9.0.65/webapps/ \;
+      run: |
+        sudo find /home/runner/work/Working-Petclinic-Sonarqube-MyExperiment/ -iname "*.war" -exec cp {} /opt/apache-tomcat-9.0.65/webapps/ \;
